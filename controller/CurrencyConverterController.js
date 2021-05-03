@@ -39,10 +39,12 @@ const initData = async () => {
             //set  globlal varilbe to get data 
             dbstore = currencyData;
             //check date difference 
-            //file created date  and conver timestamp to date
-            const lastdate = new Date(currencyData.timestamp * 1000);
-            // get difference between two timestamp in hours
+            //file created date 
+            const lastdate = currencyData.timestamp ;
+            console.log(lastdate);
+            // get difference between two timestamp 
             let difference = Date.now() - lastdate;
+            console.log(Date.now())
             //set dbstore time in hours how long the file stores
             let CACHETIMER = new Date().setHours(24);
             console.log(CACHETIMER)
