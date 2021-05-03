@@ -6,16 +6,14 @@ This application uses https://fixer.io/.
 file system is used for in memory database for custom caching.
 
 
-## Installation
+### Installation
 
 ```sh
 npm install
 npm run dev
 ```
-Installation
-
 # Modules used
-##  Dependencies
+###  Dependencies
 
 ```sh
  "axios": "^0.21.1"
@@ -36,7 +34,7 @@ Installation
 ```
 
 
-## body
+### body
 ```sh
   {
 	"fromCurrency": "LKR",
@@ -46,7 +44,7 @@ Installation
 
 ```
 
-## Response
+### Response
 ```sh
 {
     "statusCode": 201,
