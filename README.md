@@ -10,7 +10,7 @@ file system is used for in memory database for custom caching.
 
 ```sh
 npm install
-npm run start
+npm run dev
 ```
 Installation
 
