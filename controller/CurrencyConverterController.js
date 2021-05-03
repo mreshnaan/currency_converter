@@ -45,7 +45,7 @@ const initData = async () => {
             // get difference between two timestamp 
             let difference = Date.now() - lastdate;
             console.log(Date.now())
-            //set dbstore time in hours how long the file stores
+            //set database time, how long the file stays
             let CACHETIMER = new Date().setHours(24);
             console.log(CACHETIMER)
             console.log(difference)
