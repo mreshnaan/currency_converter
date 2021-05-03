@@ -52,7 +52,9 @@ const initData = async () => {
 
             //check if its pass 24 hours
             if (difference > CACHETIMER) {
+                //remove file 
                 await fs.promises.unlink(DBPATH);
+                // call iniData to add file
                 initData();
             }
         }
